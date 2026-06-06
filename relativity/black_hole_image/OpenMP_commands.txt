@@ -1,0 +1,5 @@
+g++ -O3 -fopenmp kerr_image.cpp -o kerr_image
+
+export OMP_NUM_THREADS=70
+
+./kerr_image
